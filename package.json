@@ -1,0 +1,20 @@
+{
+  "name": "lluvia-estelar",
+  "version": "1.0.0",
+  "description": "Juego móvil híbrido (Capacitor): esquiva meteoritos y recoge estrellas en 3 niveles.",
+  "private": true,
+  "scripts": {
+    "serve": "npx --yes http-server www -p 8080 -c-1",
+    "sync": "npx cap sync android",
+    "open": "npx cap open android"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/app": "^8.1.2",
+    "@capacitor/core": "^8.5.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.3"
+  }
+}
